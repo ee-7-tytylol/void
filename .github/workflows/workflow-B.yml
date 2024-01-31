@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: rrr-fly-to-moon/void/.github/workflows/reusable-workflow.yml@main
+    uses: rrr-fly-to-moon/void/.github/workflows/workflow-B.yml@main
     with:
         config-path: .github/labeler.yml
     secrets:
